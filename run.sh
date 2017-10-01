@@ -1,6 +1,3 @@
-# target/generated-sources/protobuf/grpc-java
-# target/generated-sources/protobuf/java
+mvn exec:java -Dexec.mainClass="io.grpc.examples.routeguide.RouteGuideServer"
+mvn exec:java -Dexec.mainClass="io.grpc.examples.routeguide.RouteGuideClient"
 
-# test HelloWorld
-mvn exec:java -Dexec.mainClass="io.grpc.examples.helloworld.HelloWorldServer"
-mvn exec:java -Dexec.mainClass="io.grpc.examples.helloworld.HelloWorldClient"
